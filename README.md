@@ -60,10 +60,52 @@ https://api.spacexdata.com/v3/launches?limit=100&launch_year=2014
 The above specifications can be combined on the basis of user choice of options and provide filtered data <br/>
 https://api.spacexdata.com/v3/launches?limit=100&launch_success=true&land_success=true&launch_year=2014
 
+<br/>
+
+### Special features of the App
+
+#### Responsive Behaviour
+The app has been created by keeping in mind the variability of devices and system resources that can be used to access this, and hence the app supports great level of responsiveness.
+<br/>
+Responsive Behavior Details :
+<br/>
+1. Mobile View: Page should have only one Column until 700 px. 
+<br/>
+2. Tablet View: Page should have 2 columns between 700 and 1024 px.
+<br/>
+3. Desktop View: Page should have 4 columns between 1024 and 1440 px. Beyond 1440px viewport, the content will be centered align with a max width of 1440.
+<br/>
+
+The designs for reference
+![image](https://user-images.githubusercontent.com/63228776/91385447-841fef80-e84e-11ea-9487-b2a70a87160e.png)
+
+![image](https://user-images.githubusercontent.com/63228776/91385516-b03b7080-e84e-11ea-9bb8-0779a0b278f5.png)
+
+![image](https://user-images.githubusercontent.com/63228776/91385540-c5180400-e84e-11ea-83c8-069cd3bcebf7.png)
+
+
+#### Isomorphic Behaviour
+The first page loaded for the user is provided from the server and then further changes are catered on the client end. This has been done by creating a structure for Server side rendering and then hydrating on the client end.
+
+
+#### SEO Friendly
+The app has incorporated SEO friendly techniques with proper meta content and description handling and incorporating robots.txt for aid in the crawling process.
+
+
+#### Performance Centric
+The app is very performant savvy with multiple techniques such as lazy loading, critical loading, optimizing CRP, preloading data, etc. to achieve high performance.
+The performance can be checked along the lines of Lighthouse API score for the app reflecting good numbers in both, Mobile View and Desktop Mode.
+
+The design for reference
+![Mob97Prod](https://user-images.githubusercontent.com/63228776/91386215-25f40c00-e850-11ea-9550-aab50c3a55f0.PNG)
+
+![Desktop95Prod](https://user-images.githubusercontent.com/63228776/91386248-360beb80-e850-11ea-8467-fe8e53beaf5c.PNG)
+
+<br/>
+
 
 ## Future Scope Of Improvement
 
 The project can be extended through better handling of filter options and by adding more choices for users to request and explore.
 <br/>
 The project can add a layer of robustness by introducing testing methodologies at various stages. To start, custom test cases can be built to test sanity and corner edge cases.
-
