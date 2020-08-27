@@ -57,7 +57,7 @@ const LaunchDisplay = ({launchData}) => {
     return (
       <div key={el.nm} className="lzy-div">
         <div className="imgBg">
-          <img className="lzy-img" data-src={el.img} alt={el.nm} />
+          {el.img ? <img className="lzy-img" data-src={el.img} alt={el.nm} /> : null}
         </div>
         <div className="launchName">{`${el.nm} #${i + 1}`}</div>
         {el.id.length > 0 ? (
