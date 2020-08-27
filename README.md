@@ -67,12 +67,9 @@ https://api.spacexdata.com/v3/launches?limit=100&launch_success=true&land_succes
 #### Responsive Behaviour
 The app has been created by keeping in mind the variability of devices and system resources that can be used to access this, and hence the app supports great level of responsiveness.
 <br/>
-Responsive Behavior Details :
-<br/>
-1. Mobile View: Page should have only one Column until 700 px. 
-<br/>
-2. Tablet View: Page should have 2 columns between 700 and 1024 px.
-<br/>
+Responsive Behavior Details 
+1. Mobile View: Page should have only one Column until 700 px. <br/>
+2. Tablet View: Page should have 2 columns between 700 and 1024 px. <br/>
 3. Desktop View: Page should have 4 columns between 1024 and 1440 px. Beyond 1440px viewport, the content will be centered align with a max width of 1440.
 <br/>
 
@@ -102,6 +99,11 @@ The design for reference
 ![Desktop95Prod](https://user-images.githubusercontent.com/63228776/91386248-360beb80-e850-11ea-8467-fe8e53beaf5c.PNG)
 
 <br/>
+
+#### Deployed on live hosting environment
+The app is hosted on Heroku environment for code deployment to check the functionality on production environment.
+<br/>
+https://spacex-launches-react-express.herokuapp.com/
 
 
 ## Future Scope Of Improvement
